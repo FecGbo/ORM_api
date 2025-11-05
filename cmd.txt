@@ -1,0 +1,6 @@
+npm init -y
+npm install express sequelize mysql2
+npm install --save-dev sequelize-cli
+npx sequelize-cli init
+npx sequelize-cli model:generate --name users --attributes name:string,
+npx sequelize-cli db:migrate
