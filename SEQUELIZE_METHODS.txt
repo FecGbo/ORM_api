@@ -1,0 +1,80 @@
+Model (static) methods:
+create()
+bulkCreate()
+findAll()
+findOne()
+findByPk()
+findAndCountAll()
+findOrCreate()
+upsert()
+update()
+destroy()
+count()
+max()
+min()
+sum()
+aggregate()
+scope()
+build()
+
+Instance (row) methods:
+save()
+update()
+destroy()
+reload()
+validate()
+toJSON()
+increment()
+decrement()
+
+Association helper methods (auto-added):
+getX()
+setX()
+addX()
+addXs()
+removeX()
+hasX()
+countX()
+createX()
+
+QueryInterface (migrations/schema):
+createTable()
+dropTable()
+addColumn()
+removeColumn()
+changeColumn()
+renameColumn()
+renameTable()
+addIndex()
+removeIndex()
+bulkInsert()
+bulkDelete()
+bulkUpdate()
+
+Sequelize instance / DB utilities:
+transaction()
+query()
+sync()
+authenticate()
+close()
+define()
+
+Query/where helpers & operators:
+Sequelize.Op.eq
+Sequelize.Op.ne
+Sequelize.Op.like
+Sequelize.Op.iLike
+Sequelize.Op.in
+Sequelize.Op.notIn
+Sequelize.Op.and
+Sequelize.Op.or
+Sequelize.Op.between
+Sequelize.Op.gte
+Sequelize.Op.lte
+
+Other / options (common):
+raw: true
+paranoid / restore()
+hooks (beforeCreate, afterUpdate, ...)
+
+(All methods return Promises — await or return them.)
